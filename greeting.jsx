@@ -1,16 +1,14 @@
-// src/App.jsx
+// src/components/Greeting.jsx
 
 import React from 'react';
-import Greeting from './components/Greeting';
-import './App.css';
 
-function App() {
+const Greeting = () => {
   return (
-    <>
-      <h1>Vite + React</h1>
-      <Greeting />
-    </>
+    <div>
+      <h2>Hello from the Greeting Component!</h2>
+      <p>This is your first custom component in React.</p>
+    </div>
   );
-}
+};
 
-export default App;
+export default Greeting;
